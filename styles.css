@@ -1,0 +1,145 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+  background-color: #ff4c68;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+font-size: 2.5rem;
+font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+.title-img{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.tit-col{
+  position: relative;
+}
+.ft-icon{
+  color: #ef8172;
+  margin: 0 0 15px 0;
+}
+.ft-icon:hover{
+  color: #ff4c68;
+}
+.ft-tit{
+  font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+font-size: 1.5rem;
+}
+.ft-dt{
+  color: #8f8f8f;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.ft-box{
+  text-align: center;
+  padding: 5%;
+}
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonials-img{
+  border-radius: 100%;
+  width: 10%;
+  padding: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+
+
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15% 10%;
+}
+.cta-h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+.cta-btn{
+  margin: 4% 1% 0;
+}
+.footer-icon{
+  margin: 5% 0.5% 1.5%;
+}
+#footer{
+  text-align: center;
+  background-color: #fff;
+}
